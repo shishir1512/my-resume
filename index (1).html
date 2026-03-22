@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shishir KB — Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Clash Display: bold geometric; DM Sans: clean neutral body; Fira Code: mono labels -->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;900&family=DM+Sans:wght@300;400;500&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ▓▓▓ BACKGROUND GEOMETRY ▓▓▓ -->
+  <div class="bg-geometry" aria-hidden="true">
+    <div class="bg-vline bg-vline--1"></div>
+    <div class="bg-vline bg-vline--2"></div>
+    <div class="bg-vline bg-vline--3"></div>
+    <div class="bg-cross" style="--x:72%;--y:18%"></div>
+    <div class="bg-cross" style="--x:12%;--y:62%"></div>
+    <div class="bg-cross" style="--x:88%;--y:80%"></div>
+  </div>
+
+  <!-- ▓▓▓ NAV ▓▓▓ -->
+  <nav class="nav" id="nav" aria-label="Primary">
+    <div class="nav-wrap">
+
+      <a href="#home" class="nav-id" aria-label="Shishir KB home">
+        <div class="nav-id-block">
+          <span class="nib-letter">S</span>
+          <span class="nib-letter">K</span>
+          <span class="nib-letter">B</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#home"       class="nav-a active" data-idx="00">Home</a></li>
+        <li><a href="#education"  class="nav-a"        data-idx="01">Education</a></li>
+        <li><a href="#experience" class="nav-a"        data-idx="02">Experience</a></li>
+        <li><a href="#projects"   class="nav-a"        data-idx="03">Projects</a></li>
+        <li><a href="#edge"       class="nav-a"        data-idx="04">The Edge</a></li>
+      </ul>
+
+      <a href="mailto:shishirkb1512@gmail.com" class="nav-contact">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Get in Touch
+      </a>
+
+    </div>
+  </nav>
+
+  <!-- ▓▓▓ HERO ▓▓▓ -->
+  <header class="hero" id="home">
+
+    <div class="hero-grid">
+
+      <!-- Giant decorative number -->
+      <div class="hero-deco-num" aria-hidden="true">01</div>
+
+      <!-- Left: identity column -->
+      <div class="hero-col hero-col--left">
+        <div class="hero-eyebrow">
+          <span class="eyebrow-rule"></span>
+          <span class="eyebrow-text">Entrepreneur · Builder · Athlete</span>
+        </div>
+
+        <h1 class="hero-name">
+          <span class="hn-line hn-line--first">Shishir</span>
+          <span class="hn-line hn-line--last">
+            <span class="hn-last-text">KB</span>
+            <span class="hn-blue-rect" aria-hidden="true"></span>
+          </span>
+        </h1>
+
+        <p class="hero-tagline">
+          Bridging Finance, Marketing,<br />and Product Engineering.
+        </p>
+
+        <div class="hero-btns">
+          <a href="#projects" class="hbtn hbtn--fill">
+            View Projects
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#education" class="hbtn hbtn--ghost">My Background</a>
+        </div>
+      </div>
+
+      <!-- Right: photo + quick stats -->
+      <div class="hero-col hero-col--right">
+
+        <!-- Profile photo frame -->
+        <div class="photo-wrap">
+          <div class="photo-frame" aria-label="Profile photo placeholder">
+            <div class="photo-inner">
+              <span class="photo-monogram">SK</span>
+            </div>
+            <!-- Corner ticks -->
+            <span class="ptick ptick--tl" aria-hidden="true"></span>
+            <span class="ptick ptick--tr" aria-hidden="true"></span>
+            <span class="ptick ptick--bl" aria-hidden="true"></span>
+            <span class="ptick ptick--br" aria-hidden="true"></span>
+          </div>
+          <div class="photo-caption">
+            <span class="pc-dot"></span>
+            Open to opportunities · Bangalore
+          </div>
+        </div>
+
+        <!-- Quick-facts strip -->
+        <div class="qfacts">
+          <div class="qf">
+            <strong>IVB</strong>
+            <span>Entrepreneurship</span>
+          </div>
+          <div class="qf-sep"></div>
+          <div class="qf">
+            <strong>IIM Bangalore</strong>
+            <span>BBA · DBE</span>
+          </div>
+          <div class="qf-sep"></div>
+          <div class="qf">
+            <strong>2025–28</strong>
+            <span>Cohort</span>
+          </div>
+        </div>
+
+        <!-- Contact pills -->
+        <div class="hero-contacts">
+          <a href="mailto:shishirkb1512@gmail.com" class="hc-pill">✉ shishirkb1512@gmail.com</a>
+          <a href="https://www.linkedin.com/in/shishir-kb-1a3015382" target="_blank" rel="noopener" class="hc-pill">↗ LinkedIn</a>
+          <a href="tel:+919606089365" class="hc-pill">✆ +91 96060 89365</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Hero stats band -->
+    <div class="hero-band">
+      <div class="band-item">
+        <span class="band-val">1st</span>
+        <span class="band-key">Place · UI/UX</span>
+      </div>
+      <div class="band-sep" aria-hidden="true">/</div>
+      <div class="band-item">
+        <span class="band-val">4+</span>
+        <span class="band-key">Products Shipped</span>
+      </div>
+      <div class="band-sep" aria-hidden="true">/</div>
+      <div class="band-item">
+        <span class="band-val">500+</span>
+        <span class="band-key">Event Attendees Led</span>
+      </div>
+      <div class="band-sep" aria-hidden="true">/</div>
+      <div class="band-item">
+        <span class="band-val">55kg</span>
+        <span class="band-key">Transformation</span>
+      </div>
+      <div class="band-sep" aria-hidden="true">/</div>
+      <div class="band-item">
+        <span class="band-val">National</span>
+        <span class="band-key">Basketball Semi-Finalist</span>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- ▓▓▓ MAIN ▓▓▓ -->
+  <main>
+
+    <!-- ═ EDUCATION ═ -->
+    <section id="education" class="sec">
+      <div class="sec-inner">
+
+        <div class="sec-sidebar">
+          <div class="sec-num" aria-hidden="true">01</div>
+          <h2 class="sec-title">Venture<br />&amp; Academic<br />Stack</h2>
+          <p class="sec-desc">A dual-track programme — live venture building at IVB running in parallel with one of India's most competitive business degrees at IIM Bangalore.</p>
+        </div>
+
+        <div class="sec-content">
+          <div class="table-box">
+            <div class="table-label">education.records</div>
+            <div class="tbl-outer">
+              <table>
+                <caption class="sr-only">Shishir KB academic history</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">No.</th>
+                    <th scope="col">Institution</th>
+                    <th scope="col">Programme</th>
+                    <th scope="col">Period</th>
+                    <th scope="col">Grade</th>
+                    <th scope="col">Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="tr-hi">
+                    <td class="td-no">01</td>
+                    <td>
+                      <div class="td-inst">
+                        <span class="ti-chip ti-chip--blue">IVB</span>
+                        <div>
+                          <b>Institute of Venture Building</b>
+                          <small>Bangalore, India</small>
+                        </div>
+                      </div>
+                    </td>
+                    <td>UG Entrepreneurship</td>
+                    <td class="td-yr">2025–28</td>
+                    <td>—</td>
+                    <td><span class="s-pill s-pill--live">Live</span></td>
+                  </tr>
+                  <tr class="tr-hi">
+                    <td class="td-no">02</td>
+                    <td>
+                      <div class="td-inst">
+                        <span class="ti-chip ti-chip--blue">IIM</span>
+                        <div>
+                          <b>IIM Bangalore</b>
+                          <small>Bangalore, India</small>
+                        </div>
+                      </div>
+                    </td>
+                    <td>BBA — Digital Business &amp; Entrepreneurship</td>
+                    <td class="td-yr">2025–28</td>
+                    <td>—</td>
+                    <td><span class="s-pill s-pill--live">Live</span></td>
+                  </tr>
+                  <tr>
+                    <td class="td-no">03</td>
+                    <td>
+                      <div class="td-inst">
+                        <span class="ti-chip">XII</span>
+                        <div>
+                          <b>Allen Career Institute</b>
+                          <small>Class XII</small>
+                        </div>
+                      </div>
+                    </td>
+                    <td>Higher Secondary</td>
+                    <td class="td-yr">2024–25</td>
+                    <td><span class="g-chip">90%</span></td>
+                    <td><span class="s-pill s-pill--done">Done</span></td>
+                  </tr>
+                  <tr>
+                    <td class="td-no">04</td>
+                    <td>
+                      <div class="td-inst">
+                        <span class="ti-chip">X</span>
+                        <div>
+                          <b>St. Joseph's Central School</b>
+                          <small>Class X</small>
+                        </div>
+                      </div>
+                    </td>
+                    <td>Secondary Education</td>
+                    <td class="td-yr">2022–23</td>
+                    <td><span class="g-chip">91%</span></td>
+                    <td><span class="s-pill s-pill--done">Done</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═ EXPERIENCE ═ -->
+    <section id="experience" class="sec sec--alt">
+      <div class="sec-inner">
+
+        <div class="sec-sidebar">
+          <div class="sec-num" aria-hidden="true">02</div>
+          <h2 class="sec-title">Leadership<br />in Action</h2>
+          <p class="sec-desc">Real-world roles that demanded financial precision, operational rigour, and the ability to hold a room of 500.</p>
+        </div>
+
+        <div class="sec-content">
+          <div class="exp-stack">
+
+            <article class="exp-card exp-card--primary">
+              <div class="ec-header">
+                <div class="ec-role-tag">
+                  <span class="ert-dot"></span>
+                  Cultural Secretary
+                </div>
+                <span class="ec-org">Campus Student Body</span>
+              </div>
+
+              <h3 class="ec-headline">Finance · Operations · Leadership</h3>
+
+              <div class="ec-pillars">
+
+                <div class="ecp">
+                  <div class="ecp-num" aria-hidden="true">A</div>
+                  <div class="ecp-body">
+                    <h4>Financial Strategy</h4>
+                    <p>Eliminated AV equipment rental costs entirely by designing and operationalising an in-house AV management system. Measurable, repeatable cost savings delivered across every festival.</p>
+                  </div>
+                </div>
+
+                <div class="ecp">
+                  <div class="ecp-num" aria-hidden="true">B</div>
+                  <div class="ecp-body">
+                    <h4>Operational Excellence</h4>
+                    <p>Received formal institutional commendations for zero-failure coordination of multi-department logistics, talent scheduling, vendor management, and live event execution.</p>
+                  </div>
+                </div>
+
+                <div class="ecp">
+                  <div class="ecp-num" aria-hidden="true">C</div>
+                  <div class="ecp-body">
+                    <h4>Team Leadership</h4>
+                    <p>Directed cross-functional student teams under time-critical production conditions — maintaining accountability, morale, and momentum simultaneously.</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="ec-chips">
+                <span>Budget Optimization</span>
+                <span>Event Production</span>
+                <span>Vendor Relations</span>
+                <span>AV Systems</span>
+                <span>Cross-team Leadership</span>
+              </div>
+            </article>
+
+            <article class="exp-card exp-card--secondary">
+              <div class="ec-header">
+                <div class="ec-role-tag">
+                  <span class="ert-dot"></span>
+                  Master of Ceremonies
+                </div>
+                <span class="ec-org">Community Festivals</span>
+              </div>
+
+              <div class="ec-big-stat">
+                <span class="ebs-val">500<sup>+</sup></span>
+                <span class="ebs-label">Attendees managed per event</span>
+              </div>
+
+              <ul class="ec-list">
+                <li>Live, real-time problem-solving under audience pressure</li>
+                <li>Sponsor and performer coordination</li>
+                <li>High-energy crowd and flow management</li>
+                <li>End-to-end stage direction &amp; programme pacing</li>
+              </ul>
+
+              <blockquote class="ec-quote">
+                "Commanding a stage of 500 is the same skill as commanding a boardroom — presence, pacing, and clarity."
+              </blockquote>
+            </article>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═ PROJECTS ═ -->
+    <section id="projects" class="sec">
+      <div class="sec-inner">
+
+        <div class="sec-sidebar">
+          <div class="sec-num" aria-hidden="true">03</div>
+          <h2 class="sec-title">Innovation<br />Lab</h2>
+          <p class="sec-desc">Award-winning UX platforms, full-stack accessibility tools, and hardware R&amp;D. Ideas turned into reality.</p>
+        </div>
+
+        <div class="sec-content">
+          <div class="proj-grid">
+
+            <article class="pj-card pj-card--hero">
+              <div class="pj-award">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#f0c040"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                1st Place — UI/UX Design
+              </div>
+              <div class="pj-type">Platform Design</div>
+              <h3 class="pj-title">LuxShare<br />&amp; Co-Found</h3>
+              <p class="pj-body">
+                <strong>LuxShare</strong> co-ownership marketplace for luxury goods. <strong>Co-Found</strong> intelligently matches early-stage founders with complementary co-founders. Both clinched first place for user-centric design excellence.
+              </p>
+              <div class="pj-stack">
+                <span>Figma</span><span>UX Research</span><span>Prototyping</span><span>User Testing</span>
+              </div>
+              <a href="#" class="pj-cta">
+                Case Study
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </article>
+
+            <article class="pj-card">
+              <div class="pj-type">Full-Stack</div>
+              <h3 class="pj-title">Disbumble<br />&amp; Lingo Link</h3>
+              <p class="pj-body"><strong>Disbumble</strong> removes navigation friction for mobility-challenged users. <strong>Lingo Link</strong> bridges local language gaps in real time. Both shipped as full-stack production builds.</p>
+              <div class="pj-stack"><span>Accessibility</span><span>Localisation</span><span>Full-Stack</span></div>
+              <a href="#" class="pj-cta">Explore <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            </article>
+
+            <article class="pj-card">
+              <div class="pj-type">Mobile · Contest</div>
+              <h3 class="pj-title">Hyper-Local<br />Mapping</h3>
+              <p class="pj-body">Community navigation app built with <strong>MIT App Inventor</strong> for the <strong>Google Code to Learn</strong> contest. Granular local discovery where mainstream maps fall short.</p>
+              <div class="pj-stack"><span>MIT App Inventor</span><span>Mobile</span><span>Google</span></div>
+              <a href="#" class="pj-cta">Explore <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            </article>
+
+            <article class="pj-card">
+              <div class="pj-type">Hardware · R&amp;D</div>
+              <h3 class="pj-title">Hoverboard<br />Prototype</h3>
+              <p class="pj-body">End-to-end R&amp;D for a self-balancing personal mobility device. <strong>Make in India</strong> inspired — hardware-software co-design exploring the future of urban transport.</p>
+              <div class="pj-stack"><span>Hardware</span><span>R&amp;D</span><span>Make in India</span></div>
+              <a href="#" class="pj-cta">Explore <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            </article>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═ THE EDGE ═ -->
+    <section id="edge" class="sec sec--alt">
+      <div class="sec-inner">
+
+        <div class="sec-sidebar">
+          <div class="sec-num" aria-hidden="true">04</div>
+          <h2 class="sec-title">The<br />Edge</h2>
+          <p class="sec-desc">Excellence built beyond the classroom. In arenas, in training halls, on stages, and in the mirror.</p>
+        </div>
+
+        <div class="sec-content">
+          <div class="edge-layout">
+
+            <!-- Sports column -->
+            <div class="edge-block">
+              <div class="edge-block-label">
+                <span class="ebl-rule"></span>
+                Sport &amp; Discipline
+              </div>
+              <div class="sport-list">
+                <div class="sport-row">
+                  <div class="sr-emoji">🏀</div>
+                  <div class="sr-body">
+                    <strong>Basketball</strong>
+                    <p>National Semi-Finalist — elite-tier competition demanding team strategy, athletic precision, and pressure performance.</p>
+                  </div>
+                  <div class="sr-tag sr-tag--blue">National</div>
+                </div>
+                <div class="sport-row">
+                  <div class="sr-emoji">🥋</div>
+                  <div class="sr-body">
+                    <strong>Karate</strong>
+                    <p>Brown Belt — years of structured martial arts practice building focus, composure, and high-stakes decision-making.</p>
+                  </div>
+                  <div class="sr-tag">Brown Belt</div>
+                </div>
+                <div class="sport-row">
+                  <div class="sr-emoji">🎮</div>
+                  <div class="sr-body">
+                    <strong>Esports</strong>
+                    <p>Team India · Junior Level — national representation blending split-second cognition with strategic depth.</p>
+                  </div>
+                  <div class="sr-tag sr-tag--blue">Team India</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right column: transform + achievements -->
+            <div class="edge-block">
+              <div class="edge-block-label">
+                <span class="ebl-rule"></span>
+                Mental Discipline
+              </div>
+
+              <div class="transform-card">
+                <div class="tc-number">55<span>kg</span></div>
+                <div class="tc-detail">
+                  <strong>Physical Transformation</strong>
+                  <p>A 55 kg transformation is a systems achievement — goal definition, process design, iterative discipline, and long-term consistency. The same mental model that drives product strategy. What the body learns, the mind operationalises.</p>
+                  <div class="tc-tags">
+                    <span>Self-Regulation</span>
+                    <span>Delayed Gratification</span>
+                    <span>Systems Thinking</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="edge-block-label" style="margin-top:2.5rem">
+                <span class="ebl-rule"></span>
+                Academic Achievements
+              </div>
+
+              <div class="ach-list">
+                <div class="ach-item">
+                  <div class="ai-marker"></div>
+                  <div class="ai-body">
+                    <strong>Subject Matter Contributor</strong>
+                    <p>National Entrepreneurship Olympiad — shaped domain questions and structured curriculum content at national level.</p>
+                  </div>
+                </div>
+                <div class="ach-item">
+                  <div class="ai-marker"></div>
+                  <div class="ai-body">
+                    <strong>Top-Tier · SOF International Olympiads</strong>
+                    <p>Ranked among highest performers in Science, Mathematics, and Reasoning internationally.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ▓▓▓ FOOTER ▓▓▓ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+
+        <div class="ft-brand">
+          <div class="ft-name">Shishir KB</div>
+          <p class="ft-line">Finance · Marketing · Product Engineering</p>
+        </div>
+
+        <div class="ft-nav">
+          <span class="ft-section-label">Navigate</span>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#edge">The Edge</a></li>
+          </ul>
+        </div>
+
+        <div class="ft-contact">
+          <span class="ft-section-label">Contact</span>
+          <ul>
+            <li><a href="mailto:shishirkb1512@gmail.com">shishirkb1512@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/shishir-kb-1a3015382" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="tel:+919606089365">+91 96060 89365</a></li>
+          </ul>
+        </div>
+
+        <div class="ft-cta-col">
+          <a href="/cdn-cgi/l/email-protection#d6a5bebfa5bebfa496b3bbb7bfbaf8b5b9bb" class="ft-cta">
+            Let's Build Together
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span class="fb-copy">© 2025 Shishir KB — Built with HTML5 &amp; CSS3</span>
+        <span class="fb-tag">&lt;/shishirkb&gt;</span>
+      </div>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    // Nav glass on scroll
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('nav--scrolled', window.scrollY > 50);
+    }, { passive: true });
+
+    // Active nav link
+    const sections = document.querySelectorAll('[id]');
+    const navAs = document.querySelectorAll('.nav-a');
+    const io = new IntersectionObserver(entries => {
+      ent
